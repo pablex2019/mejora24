@@ -748,11 +748,15 @@ nav ul li a:hover{
         overflow-x: hidden;
     }
     #mainHeader.fixed{
-        padding: 10px 22px;
+        padding: 10px 20px;
+    }
+    .logo{
+        gap: 8px;
     }
     .logo img{
-        width: 200%;
-        height: 200%;
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
     }
     nav{
         position: relative;
@@ -804,5 +808,11 @@ nav ul li a:hover{
     .step {
         width: 100%;
         text-align: center;
+    }
+    .hero{
+        margin-top: 20px;
+    }
+    .logo h1{
+        font-size: 16px;
     }
 }

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/img/logo.jpeg" type="image/jpeg" sizes="32x32">
+    <title>MEJORA 24 - CONSULTORA DE QA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- header -->
+     <header class="_mainHeader" id="mainHeader">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="assets/img/logo.jpeg" alt=""><h1>MEJORA </h1><h1 id="numero"> 24</h1>
+            </a>
+            <nav>
+                <div class="menu-toggle" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul id="menu">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#proceso">Cómo trabajamos</a></li>
+                    <li><a href="#beneficios">Beneficios</a></li>
+                    <li><a href="https://wa.me/5493816253002?text=Hola,%20vi%20tu%20web%20y%20quiero%20mejorar%20la%20calidad%20de%20mi%20software" class="btn-nav" target="_blank">Solicitar diagnóstico</a></li>
+                </ul>
+            </nav>
+        </div>
+     </header>
+     <section class="hero">
+        <div class="hero-text" data-aos="fade-right">
+            <h2>CALIDAD QUE GENERA CONFIANZA</h2>
+            <h1 class="heading heroHeading">Mejoramos la calidad de tu software, <span id="typing-title"></span></h1>
+            <p id="typing-text"></p>
+        </div>
+        <div class="hero-image" data-aos="fade-left">
+            <img src="assets/img/representa.jpeg" class="reprensatativeImage">
+        </div>
+        <!--<div class="acciones">
+			<a href="#" class="btn btn-primario">Solicitar diagnóstico</a>
+        </div>-->
+     </section>
+    <section id="servicios" class="services">
+        <div class="container">
+            <h2>Servicios</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Diagnóstico QA</h3>
+                    <p>Evaluamos el estado actual de tus procesos, herramientas y prácticas para identificar brechas y oporturnidades</p>
+                    <ul>
+                        <li>Análisis de procesos</li>
+                        <li>Evaluación de cobertura</li>
+                        <li>Informe con plan de acción</li>
+                    </ul>
+                    <a href="#contacto" class="btn-card">Solicitar diagnóstico</a>
+                </div>
+                <div class="card">
+                    <h3>Auditoría</h3>
+                    <p>Revisamos en profundidad tus procesos, artefactos y métricas para asegurar estándares de calidad.</p>
+                    <ul>
+                        <li>Auditoría de pruebas</li>
+                        <li>Revisión de automatización</li>
+                        <li>Recomendaciones claras</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Aseguramiento de calidad Mensual</h3>
+                    <p>Te acompañamos de forma continua con soporte estratégico y operativo para mantener y mejorar la calidad.</p>
+                    <ul>
+                        <li>Soporte y ejecución de pruebas</li>
+                        <li>Monitoreo y métricas</li>
+                        <li>Mejora continua</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="proceso" class="process">
+        <div class="container">
+            <h2>Cómo trabajamos</h2>
+
+            <div class="steps">
+                <div class="step">
+                    <span class="number">1</span>
+                    <h3>Conversamos</h3>
+                    <p>Entendemos tu contexto, objetivos y desafiós.</p>
+                </div>
+                <div class="step">
+                    <span class="number">2</span>
+                    <h3>Analizamos</h3>
+                    <p>Evaluamos tu situación actual y detectamos oportunidades.</p>
+                </div>
+                <div class="step">
+                    <span class="number">3</span>
+                    <h3>Proponemos</h3>
+                    <p>Diseñamos un plan de acción adaptado a tus necesidades.</p>
+                </div>
+                <div class="step">
+                    <span class="number">4</span>
+                    <h3>Acompañamos</h3>
+                    <p>Ejecutamos, medimos y mejoramos juntos.</p>
+                </div>
+                <!--<div class="step" data-step="2">Analizamos</div>
+                <div class="step" data-step="3">Proponemos</div>
+                <div class="step" data-step="4">Acompañamos</div>-->
+            </div>
+        </div>
+    </section>
+    <!--<section class="fit">
+        <div class="container">
+            <h2>¿Para quién es este servicio?</h2>
+            <ul>
+                <li>Equipos con errores frecuentes en producción</li>
+                <li>Startups que quieren escalar sin fallos</li>
+                <li>Empresas que buscan mejorar su QA</li>
+            </ul>
+        </div>
+    </section>-->
+    <section id="beneficios" class="benefits">
+        <div class="container">
+            <h2>Beneficios</h2>
+
+            <ul>
+                <li>Menos errores en producción</li>
+                <li>Mejora en procesos de desarrollo</li>
+                <li>Mayor confianza en tus entregas</li>
+            </ul>
+        </div>
+    </section>
+    <section id="contacto" class="cta">
+        <p class="urgency">⏳ Cupos limitados por semana</p>
+        <div class="container">
+            <h2>¿Listo para mejorar tu calidad?</h2>
+            <p>Agendá un diagnóstico gratuito y detectá oportunidades de mejora.</p>
+            <a href="https://wa.me/5493816253002" target="_blank" class="btn-primary">
+                Agendar diagnóstico
+            </a>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Mejora 24 - Todos los derechos reservados</p>
+        </div>
+    </footer>
+<a href="https://wa.me/5493816253002?text=Hola,%20quiero%20agendar%20un%20diagnóstico%20de%20QA" 
+   class="whatsapp-float" target="_blank">
+   <i class="fab fa-whatsapp"></i>
+</a>
+<button id="backToTop">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="assets/js/index.js"></script>
+</body>
+</html>

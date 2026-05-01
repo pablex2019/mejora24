@@ -1,8 +1,8 @@
 //AOS Initialization
 document.addEventListener("DOMContentLoaded", function () {
   AOS.init({ duration: 1000, once: true });
-  const titleText = "todos los días";
-  const paragraphText = "Diagnóstico, auditorías y aseguramiento de calidad mensual para ayudarte a entregar productos confiables, eficientes y centrados en el usuario.";
+  const titleText = "te mostramos cómo mejorarlo";
+  const paragraphText = "Analizamos tus procesos, detectamos errores y te damos un plan claro para trabajar mejor, evitar pérdidas y ofrecer un servicio más confiable.";
 
   const titleEl = document.getElementById("typing-title");
   const textEl = document.getElementById("typing-text");

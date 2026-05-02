@@ -1,7 +1,7 @@
 //AOS Initialization
 document.addEventListener("DOMContentLoaded", function () {
   AOS.init({ duration: 1000, once: true });
-  const titleText = "te mostramos cómo mejorarlo";
+  const titleText = "cómo solucionarlo para que no pierdas clientes";
   const paragraphText = "Analizamos tus procesos, detectamos errores y te damos un plan claro para trabajar mejor, evitar pérdidas y ofrecer un servicio más confiable.";
 
   const titleEl = document.getElementById("typing-title");
